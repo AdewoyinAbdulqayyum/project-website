@@ -9,14 +9,14 @@ window.addEventListener('scroll', () =>{
 const faqs = document.querySelectorAll('.faq');
 faqs.forEach(faq => {
     faq.addEventListener('click', () =>{
-        faq.classList.toggle('open')
+        faq.classList.toggle('open');
 
         //change icon
     const icon = faq.querySelector('.faq_icon i')
     if(icon.classList === 'ri-add-line'){
-        icon.className = 'ri-subtract-line'
+        icon.className = "ri-subtract-line";
     }else{
-        icon.className = 'ri-add-line';
+        icon.className = "ri-add-line";
     }
     })
 })
