@@ -303,7 +303,7 @@ header{
     line-height: 2.2;
  }
 
- .faq_icons{
+ .faq_icon{
     align-items: flex-start;
     font-size: 1.2rem;
  }
@@ -361,7 +361,9 @@ header{
     top:-1.5rem;
     transform: rotate(45deg);
 }
+
 /******************Footer********************/
+
 footer{
     background: var(--color-bg1);
     padding-top: 5rem;
